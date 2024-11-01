@@ -1,0 +1,24 @@
+﻿.SLweatherspider{margin-bottom: 10px;}
+.SLweatherspiderLoc{margin-bottom: 10px;font-weight: bold;}
+.widget #SLWeatherData img {max-width: 100%;}
+#SLWeatherData{float:left;border:solid 1px #ddd;}
+#SLWeatherData p{margin:0;padding:0;margin-bottom:0;line-height:14px;text-align:center;width:100%;}
+#SLWeatherData dl{float:left;margin:0;padding:0;margin: 10px 0;width:100%;}
+#SLWeatherData dl dt{float:left;margin:0;padding:0; width:40%;}
+#SLWeatherData dl dd{float:right;margin:0;padding:0; width:60%;color: #333;text-align:center;}
+#SLWeatherData dl dd span{display:inline-block;margin-right:5px;font-size: 10px;}
+#SLWeatherData dl dd span.curTemp{display:inline-block;font-size: 40px;margin:0;line-height:50px;}
+#SLWeatherData dl dd span.curTemp sup{font-size: 60%;color: #999;}
+#SLWeatherData ul{float:left;list-style-type:none;margin:0;padding:0;font-size: 90%;width:100%;}
+#SLWeatherData li{float:left;margin: 0;padding:0; width:48px;border-right: solid 1px #eee;}
+#SLWeatherData li.odd{background: #eee;}
+#SLWeatherData li div{text-align:center;margin:0;margin-bottom:.25em;padding:.25em;}
+#SLWeatherData li div.wbDay{font-weight: bold;color: #666;}
+#SLWeatherData li span{display:inline-block;width: 12px;color: #bbb;font-weight:bold;font-size: 90%;}
+#SLWeatherData li.noborder{border:0;}
+.SLweatherspider .SLweatherspiderByLine{text-align:center;font-size: 80%;}
+/**** font size overrides ****/
+#SLWeatherData.wbmed dl dd span,
+#SLWeatherData.wblg dl dd span{font-size: 12px;line-height:18px;}
+#SLWeatherData.wbmed dl dd span.curTemp,
+#SLWeatherData.wblg dl dd span.curTemp{font-size: 50px;line-height:60px;}
